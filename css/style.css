@@ -1,0 +1,165 @@
+* {
+  padding: 0;
+  margin: 0;
+  border: border-box;
+}
+
+header {
+  padding: 20px 0;
+}
+.logo {
+  float: left;
+}
+.clearfix {
+  clear: both;
+}
+.doc {
+  list-style-type: none;
+  display: inline-flex;
+  float: right;
+}
+
+.doc li:not(:last-child) {
+  padding-right: 10px;
+}
+
+ul {
+  display: inline-block;
+  margin: 5px 10px;
+}
+.gift {
+  background-image: url("../images/ezgif-2-b583d0ce77.png");
+  height: 70vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.glo {
+  background-color: #496bf2;
+  padding: 7px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.jay {
+  background-color: #2dd6c1;
+  border-radius: 5px;
+  cursor: pointer;
+  padding: 7px;
+}
+.hero {
+  float: right;
+  padding: top 10%;
+  text-align: center;
+  top: 30%;
+  left: 55%;
+  position: absolute;
+}
+
+.logo {
+  float: left;
+  width: 200px;
+}
+.images > div {
+  width: 20%;
+  box-shadow: 4px 4px 4px 4px;
+  float: left;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  padding: 2%;
+  margin: 20px;
+}
+.clinic {
+  float: left;
+}
+.abdul {
+  padding: 0 50px;
+  float: left;
+}
+.sta{
+  color:#496bf2;
+
+}
+.larry {
+  background-color: #496bf2;
+  border-color: #496bf2;
+  border-radius: 5px;
+}
+
+  
+
+.love{
+  text-align: center;
+}
+.Testimonials-circle{
+height:20px;
+width:20px;
+border:2px solid #496bf2;
+border-radius:50%;
+display:inline-block;
+margin:6px;
+}
+.mum{
+  color:#2dd6c1;
+}
+mer{
+  color:#496bf2;
+
+}
+.phone{
+  background-image: url(../images/ezgif-2-81a50240fb.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width:100vw;
+  height:100vh;
+}
+last{
+  transform:translate(30%);
+}
+.twits{
+  width:2%;
+  display:flex;
+}
+.facebook{
+  margin-left:20px;
+  margin-right:20px;
+}
+.kibera{display: inline;
+}
+.number{
+  display:inline;
+}
+.info{
+  display:inline
+}
+
+
+.list{
+  display: flex;
+  padding-bottom:20px;
+}
+.logos{
+  width:25%;
+}
+.links{
+  width:25%;
+  padding-right: 100px;
+}
+.departments{
+  width:25%;
+  padding-left:100px;
+  
+}
+.contacts{
+  width:25%;
+  padding-left:100px;
+}
+.life{
+  padding: 20px;
+  margin-top: 20px;
+}
+.yes{
+  padding:20px;
+}
+.all{
+  display: flex;
+}
