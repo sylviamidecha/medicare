@@ -111,6 +111,7 @@ mer{
   background-size: cover;
   width:100vw;
   height:100vh;
+  margin-top: 3em;
 }
 last{
   transform:translate(30%);
@@ -138,21 +139,27 @@ last{
   padding-bottom:20px;
 }
 .logos{
-  width:25%;
+  /* width:25%; */
 }
 .links{
-  width:25%;
-  padding-right: 100px;
+  width:30%;
+  padding: 3em 4em;
 }
-.departments{
-  width:25%;
-  padding-left:100px;
-  
+
+.links ul{
+  list-style-type: none;
+  line-height: 1.5em;
+  cursor:pointer;
 }
-.contacts{
-  width:25%;
-  padding-left:100px;
+
+.links ul  :hover{
+  color: #496bf2;
+
 }
+
+
+
+
 .life{
   padding: 20px;
   margin-top: 20px;
@@ -162,4 +169,41 @@ last{
 }
 .all{
   display: flex;
+}
+
+.blue{
+  background-color: #496bf2;
+}
+.green{
+  background-color: #2dd6c1;
+}
+.green{
+  background-color:#2dd6c1;
+}
+
+
+.testimonial-container{
+  position: relative;
+  margin:2em 0;
+}
+
+.leftquote{
+  position:absolute;
+  top:-20%;
+  left:40%;
+}
+
+
+.rightquote{
+  position:absolute;
+  bottom:-20%;
+  right:40%;
+}
+
+.tony{
+  margin: 3em  0;
+}
+
+.testimonial-circle-container{
+  margin-bottom: 3em;
 }
