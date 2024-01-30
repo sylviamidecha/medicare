@@ -1,3 +1,26 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+p{
+  font-size:20px;
+  line-height: 30px;
+  padding-bottom: 20px;
+}
+h1{
+  font-size:30px;
+  color: #496bf2;
+  padding-bottom:30px ;
+}
+h2{
+  font-size:40px;
+  color: #496bf2;
+}
+h3{
+  font-size: 40px;
+}
 * {
   padding: 0;
   margin: 0;
@@ -34,18 +57,24 @@ ul {
   height: 70vh;
   background-repeat: no-repeat;
   background-size: cover;
+  font-size:20px;
 }
 .glo {
   background-color: #496bf2;
-  padding: 7px;
+  padding: 10px 30px;
   cursor: pointer;
   border-radius: 5px;
+  font-size:20px;
+  border:none;
 }
 .jay {
   background-color: #2dd6c1;
   border-radius: 5px;
   cursor: pointer;
-  padding: 7px;
+  padding: 10px 30px;
+  border:none;
+  font-size: 20px;
+  margin-left:20px;
 }
 .hero {
   float: right;
@@ -60,15 +89,26 @@ ul {
   float: left;
   width: 200px;
 }
-.images > div {
-  width: 20%;
-  box-shadow: 4px 4px 4px 4px;
-  float: left;
-  margin-top: 50px;
-  margin-bottom: 50px;
-  padding: 2%;
-  margin: 20px;
+.images{
+  margin:50px 0;
+
 }
+.images>div {
+  width: 30%;
+  box-shadow: 0px 0px 5px 5px lightgray;
+  float: left;
+  padding: 20px 0;
+  text-align: center;
+  height: 300px;
+  
+}
+
+.images>div:nth-child(2){
+  margin: 0 5%;
+  
+}
+
+
 .clinic {
   float: left;
 }
@@ -78,18 +118,26 @@ ul {
 }
 .sta{
   color:#496bf2;
+  padding-bottom:10px;
 
 }
 .larry {
   background-color: #496bf2;
   border-color: #496bf2;
   border-radius: 5px;
+  padding: 10px 30px;
+  border:none;
+  font-size: 20px;
+
+  
 }
 .submit{
   background-color:#496bf2;
-}
-  
-
+  border-radius: 5px;
+  border: none;
+  cursor:pointer;margin-left: 20px;
+  font-size:20px;
+ }
 .love{
   text-align: center;
 }
@@ -142,9 +190,7 @@ last{
   display: flex;
   padding-bottom:20px;
 }
-.logos{
-  /* width:25%; */
-}
+
 .links{
   width:30%;
   padding: 3em 4em;
@@ -158,12 +204,7 @@ last{
 
 .links ul  :hover{
   color: #496bf2;
-
 }
-
-
-
-
 .life{
   padding: 20px;
   margin-top: 20px;
@@ -184,30 +225,29 @@ last{
 .green{
   background-color:#2dd6c1;
 }
-
-
-.testimonial-container{
+    .testimonial-container{
   position: relative;
   margin:2em 0;
 }
-
 .leftquote{
   position:absolute;
   top:-20%;
-  left:40%;
+  left:30%;
 }
-
-
+.us{
+  color: #2dd6c1;
+}
+.ad{
+  color:#496bf2;
+}
 .rightquote{
   position:absolute;
-  bottom:-20%;
+  bottom:-2%;
   right:40%;
 }
-
 .tony{
   margin: 3em  0;
 }
-
 .testimonial-circle-container{
   margin-bottom: 3em;
 }
