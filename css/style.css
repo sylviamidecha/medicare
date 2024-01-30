@@ -18,7 +18,9 @@ header {
   display: inline-flex;
   float: right;
 }
-
+.home{
+background-color: #496bf2;
+}
 .doc li:not(:last-child) {
   padding-right: 10px;
 }
@@ -83,7 +85,9 @@ ul {
   border-color: #496bf2;
   border-radius: 5px;
 }
-
+.submit{
+  background-color:#496bf2;
+}
   
 
 .love{
