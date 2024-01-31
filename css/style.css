@@ -59,6 +59,10 @@ ul {
   background-size: cover;
   font-size:20px;
 }
+
+.about{
+  margin-top: 50px;
+}
 .glo {
   background-color: #496bf2;
   padding: 10px 30px;
@@ -242,8 +246,8 @@ last{
 }
 .rightquote{
   position:absolute;
-  bottom:-2%;
-  right:40%;
+  bottom:-200%;
+  right:50%;
 }
 .tony{
   margin: 3em  0;
