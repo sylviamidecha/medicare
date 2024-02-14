@@ -42,7 +42,7 @@ header {
   float: right;
 }
 .home{
-background-color: #496bf2;
+color: #496bf2;
 }
 .doc li:not(:last-child) {
   padding-right: 10px;
@@ -169,6 +169,7 @@ mer{
   height:100vh;
   margin-top: 3em;
 }
+
 last{
   transform:translate(30%);
 }
@@ -215,6 +216,11 @@ last{
 }
 .yes{
   padding:20px;
+  width:900;
+  border:none;
+  outline:none;
+  font-size:18px;
+  float:left;
 }
 .all{
   display: flex;
@@ -235,8 +241,8 @@ last{
 }
 .leftquote{
   position:absolute;
-  top:-20%;
-  left:30%;
+  top:1000%;
+  left:-20%;
 }
 .us{
   color: #2dd6c1;
@@ -246,8 +252,8 @@ last{
 }
 .rightquote{
   position:absolute;
-  bottom:-200%;
-  right:50%;
+  right: 42%;
+  
 }
 .tony{
   margin: 3em  0;
